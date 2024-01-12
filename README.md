@@ -13,6 +13,12 @@ Training a CNN can be  computationally expensive, especially for  large datasets
 * pip install tensorflow tensorflow-datasets matplatlib
 
 
+# Modules
+
+* SCIKITLEARN
+* TensorFlow
+* OPENCV
+
 # Libraries
 
 * import tensorflow as tf
@@ -24,3 +30,5 @@ Training a CNN can be  computationally expensive, especially for  large datasets
 * import matplotlib.pyplot as plt
 * from tensorflow.keras.models import Sequential
 * from tensorflow.keras.layers import Conv2D, MaxPooling2D, Activation, Dropout, Flatten, Dense
+
+
