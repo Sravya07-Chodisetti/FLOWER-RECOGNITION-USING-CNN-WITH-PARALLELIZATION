@@ -1,5 +1,5 @@
 # FLOWER-RECOGNITION-USING-CNN-WITH-PARALLELIZATION
-FLOWER RECOGNITION USING CNN WITH PARALLELIZATION TO CALCULATE SPEED-UP &amp; EFFICIENCY
+**FLOWER RECOGNITION USING CNN WITH PARALLELIZATION TO CALCULATE SPEED-UP & EFFICIENCY**
 
 Creating a flower recognition system entails training a machine to identify various types of flowers. When the machine struggles to recognize flowers on its own, we step in to assist by training  a dataset. This process   involves adapting Convolutional Neural Networks (CNN), a widely  used approach  in image recognition tasks. CNNs made  up of several layers that work together to extract and learn features from images. Hence they are ideal for tasks like object recognition and hence flower recognition. 
 
