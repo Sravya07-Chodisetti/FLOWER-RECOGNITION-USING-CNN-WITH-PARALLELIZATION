@@ -5,6 +5,13 @@ Creating a flower recognition system entails training a machine to identify vari
 
 Training a CNN can be  computationally expensive, especially for  large datasets. Parallelization  techniques can significantly  speed up the process by distributing  the workload across multiple CPUs, GPUs, or even cloud computing resources.
 
+# PARALLELIZATION
+
+## **TARGET** 
+Training and running CNNs can be computationally expensive, especially for large datasets or complex models. 
+Parallelization aims to distribute the workload across multiple processing units (multi-core CPU, GPU, or a cluster of machines) to speed up the process.
+
+
 
 # Installations
 
