@@ -32,3 +32,12 @@ Training a CNN can be  computationally expensive, especially for  large datasets
 * from tensorflow.keras.layers import Conv2D, MaxPooling2D, Activation, Dropout, Flatten, Dense
 
 
+# Convolutional Neural Network
+
+For CNNs to function, an input image must travel through several convolutional layers. A set of filters is applied in each convolutional layer to the input picture to identify various features like edges, corners, and textures. A non-linear activation function, such as the Rectified Linear Unit (Relu), is then applied to the output of each convolutional layer to help bring nonlinearity into the network and enhance its capacity to learn complex features.
+
+# Performace
+It begins at around 60% and steadily increases to close to 100%, which suggests that the model fits well to the training set.
+
+
+
