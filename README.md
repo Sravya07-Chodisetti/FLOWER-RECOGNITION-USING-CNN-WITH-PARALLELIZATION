@@ -74,7 +74,7 @@ However, it's crucial to consider the challenges and select the appropriate para
 to maximize the benefits
 
 # Final Results with Speed & Efficiency
-| Method | Time Taken |
+| Result | Time Taken |
 | ----------- | ----------- |
 | Before Parallelization | 633.91 seconds |
 | After Parallelization | 339.31 seconds |
