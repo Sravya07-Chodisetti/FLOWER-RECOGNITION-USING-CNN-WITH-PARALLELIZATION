@@ -7,10 +7,20 @@ Training a CNN can be  computationally expensive, especially for  large datasets
 
 # PARALLELIZATION
 
-## **TARGET** 
+**Target** 
 Training and running CNNs can be computationally expensive, especially for large datasets or complex models. 
 Parallelization aims to distribute the workload across multiple processing units (multi-core CPU, GPU, or a cluster of machines) to speed up the process.
 
+**Strategies**
+* Data Parallelism: Splitting the dataset into smaller batches and processing them simultaneously on different cores/machines.
+* Model Parallelism: Dividing the CNN model into parts and assigning each part to a different core/machine.
+* Gradient Parallelism: When backpropagating gradients during training, dividing the calculations across multiple units.
+
+**Beifits**
+
+* Reduced training time: Parallelization can significantly shorten the time it takes to train a CNN on a large dataset.
+* Faster inference: Predicting the flower species of multiple images can be done much faster when parallelized.
+* Better scalability: As the dataset size or model complexity grows, parallelization allows for efficient computation using more processing resources.
 
 
 # Installations
