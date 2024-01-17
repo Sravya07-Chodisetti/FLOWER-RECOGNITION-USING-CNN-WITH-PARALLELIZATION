@@ -68,8 +68,14 @@ enhance its capacity to learn complex features.
 It begins at around 60% and steadily increases to close to 100%, which suggests that the model fits well 
 with the training set.
 
-
 # Coclusion
 Parallelization of Flower Recognition using CNNs can be a powerful approach to improve accuracy and efficiency. 
 However, it's crucial to consider the challenges and select the appropriate parallelization strategy and hardware 
 to maximize the benefits
+
+# Final Results with Speed & Efficiency
+| Method | Time Taken |
+| ----------- | ----------- |
+| Before Parallelization | 633.91 seconds |
+| After Parallelization | 339.31 seconds |
+
