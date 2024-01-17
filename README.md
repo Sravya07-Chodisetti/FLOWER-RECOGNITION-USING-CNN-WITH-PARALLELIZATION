@@ -3,7 +3,7 @@
 
 Creating a flower recognition system entails training a machine to identify various types of flowers. When the machine struggles to 
 recognize flowers on its own, we step in to assist by training  a dataset. This process   involves adapting 
-Convolutional Neural Networks (CNN), a widely  used approach  in image recognition tasks. CNNs made  up of several layers that work 
+Convolutional Neural Networks (CNN), are a widely  used approach  in image recognition tasks. CNNs made  up of several layers that work 
 together to extract and learn features from images. Hence they are ideal for tasks like object recognition and hence flower recognition. 
 
 Training a CNN can be  computationally expensive, especially for  large datasets. Parallelization  techniques can significantly  
@@ -22,20 +22,20 @@ enhance its capacity to learn complex features.
 
 * Training and running CNNs can be computationally expensive, especially for large datasets or complex models. 
 * Parallelization aims to distribute the workload across multiple processing units (multi-core CPU, GPU, or a cluster of machines)
-* to speed up the process.
+  to speed up the process.
 
 **Strategies**
 
 * Data Parallelism: Splitting the dataset into smaller batches and processing them simultaneously on different cores/machines.
 * Model Parallelism: Dividing the CNN model into parts and assigning each part to a different core/machine.
-* Gradient Parallelism: When backpropagating gradients during training, dividing the calculations across multiple units.
+* Gradient Parallelism: When backpropagating gradients during training, dividing the calculations across multiple units. 
 
 **Beifits**
 
 * Reduced training time: Parallelization can significantly shorten the time it takes to train a CNN on a large dataset.
 * Faster inference: Predicting the flower species of multiple images can be done much faster when parallelized.
 * Better scalability: As the dataset size or model complexity grows, parallelization allows for efficient computation using more
-* processing resources.
+  processing resources.
 
 
 # Installations
