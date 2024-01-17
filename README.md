@@ -21,7 +21,8 @@ enhance its capacity to learn complex features.
 **Target** 
 
 * Training and running CNNs can be computationally expensive, especially for large datasets or complex models. 
-* Parallelization aims to distribute the workload across multiple processing units (multi-core CPU, GPU, or a cluster of machines) to speed up the process.
+* Parallelization aims to distribute the workload across multiple processing units (multi-core CPU, GPU, or a cluster of machines)
+* to speed up the process.
 
 **Strategies**
 
@@ -33,7 +34,8 @@ enhance its capacity to learn complex features.
 
 * Reduced training time: Parallelization can significantly shorten the time it takes to train a CNN on a large dataset.
 * Faster inference: Predicting the flower species of multiple images can be done much faster when parallelized.
-* Better scalability: As the dataset size or model complexity grows, parallelization allows for efficient computation using more processing resources.
+* Better scalability: As the dataset size or model complexity grows, parallelization allows for efficient computation using more
+* processing resources.
 
 
 # Installations
@@ -63,8 +65,11 @@ enhance its capacity to learn complex features.
 
 
 # Performace
-It begins at around 60% and steadily increases to close to 100%, which suggests that the model fits well to the training set.
+It begins at around 60% and steadily increases to close to 100%, which suggests that the model fits well 
+with the training set.
 
 
 # Coclusion
-Parallelization of Flower Recognition using CNNs can be a powerful approach to improve accuracy and efficiency. However, it's crucial to consider the challenges and select the appropriate parallelization strategy and hardware to maximize the benefits
+Parallelization of Flower Recognition using CNNs can be a powerful approach to improve accuracy and efficiency. 
+However, it's crucial to consider the challenges and select the appropriate parallelization strategy and hardware 
+to maximize the benefits
