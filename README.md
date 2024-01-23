@@ -6,8 +6,7 @@ recognize flowers on its own, we step in to assist by training  a dataset. This 
 Convolutional Neural Networks (CNN), are a widely  used approach  in image recognition tasks. CNNs made  up of several layers that work 
 together to extract and learn features from images. Hence they are ideal for tasks like object recognition and hence flower recognition. 
 
-Training a CNN can be  computationally expensive, especially for  large datasets. Parallelization  techniques can significantly  
-speed up the process by distributing  the workload across multiple CPUs, GPUs, or even cloud computing resources.
+Training a CNN can be  computationally expensive, especially for  large datasets. Parallelization  techniques can significantly speed up the process by distributing  the workload across multiple CPUs, GPUs, or even cloud computing resources.
 
 # Convolutional Neural Network
 
