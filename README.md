@@ -29,7 +29,7 @@ enhance its capacity to learn complex features.
 * Model Parallelism: Dividing the CNN model into parts and assigning each part to a different core/machine.
 * Gradient Parallelism: When backpropagating gradients during training, dividing the calculations across multiple units. 
 
-**Beifits**
+**Benifits**
 
 * Reduced training time: Parallelization can significantly shorten the time it takes to train a CNN on a large dataset.
 * Faster inference: Predicting the flower species of multiple images can be done much faster when parallelized.
@@ -63,11 +63,11 @@ enhance its capacity to learn complex features.
 * from tensorflow.keras.layers import Conv2D, MaxPooling2D, Activation, Dropout, Flatten, Dense
 
 
-# Performace
+# Performance
 It begins at around 60% and steadily increases to close to 100%, which suggests that the model fits well 
 with the training set.
 
-# Coclusion
+# Conclusion
 Parallelization of Flower Recognition using CNNs can be a powerful approach to improve accuracy and efficiency. 
 However, it's crucial to consider the challenges and select the appropriate parallelization strategy and hardware 
 to maximize the benefits
@@ -77,4 +77,4 @@ to maximize the benefits
 | ----------- | ----------- |
 | Before Parallelization | 633.91 seconds |
 | After Parallelization | 339.31 seconds |
-
+![image](https://github.com/Sravya07-Chodisetti/FLOWER-RECOGNITION-USING-CNN-WITH-PARALLELIZATION/assets/73091961/ff27f0c9-5c30-4f06-a7e8-9c87455c21e8)
