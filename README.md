@@ -77,4 +77,4 @@ to maximize the benefits
 | ----------- | ----------- |
 | Before Parallelization | 633.91 seconds |
 | After Parallelization | 339.31 seconds |
-![image](https://github.com/Sravya07-Chodisetti/FLOWER-RECOGNITION-USING-CNN-WITH-PARALLELIZATION/assets/73091961/ff27f0c9-5c30-4f06-a7e8-9c87455c21e8)
+
